@@ -20,52 +20,52 @@
 
 <body>
   <!-- Navbar  -->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006d50;">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <form class="form-inline my-2 my-lg-0">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Products
-        </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-<!-- Bar underneath -->
-<div class="bottombar">
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Sun</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Sand</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Surl</a>
-  </li>
-</ul>
-</div>
-<!-- Page Content -->
+ <nav class="navbar navbar-expand-md navbar-dark" id="nav">
+   <div class="container-fluid mx-0">
+     <!-- Logo -->
+     <h1 class="pb-2 ml-md-0 ml-sm-3 ml-0 mr-3">
+       <a href="#" id="logostuff">Logo</a>
+     </h1>
+     <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <!-- Navbar except for the logo -->
+     <div class="collapse navbar-collapse flex-column align-items-start ml-lg-2 ml-0" id="navbarCollapse">
+       <!-- Row 1: Searchbar, Search Button, Cart -->
+       <div class="input-group mb-3 flex-row w-100">
+         <!-- Searchbar -->
+         <div class="w-75" id="sbar">
+           <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+         </div>
+         <!-- Appended Search Button -->
+         <div class="input-group-append">
+           <button class="btn btn-outline" type="submit">
+             <i class="fas fa-search fa-sm"></i>
+           </button>
+         </div>
+         <!-- Cart Button -->
+         <div class="ml-auto">
+           <button class="btn btn-outline ml-auto" type="button">
+             <i class="fas fa-shopping-cart fa-sm"></i>
+           </button>
+         </div>
+       </div>
+     <!-- Row 2 REMEMBER TO EDIT THE HREF LINKS -->
+     <ul class="navbar-nav flex-row mb-md-1 mt-md-0 mb-3 mt-2">
+       <li class="nav-item">
+         <a class="nav-link py-0 pr-3" href="index.html">Home</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link py-0 pr-3" href="product.html">Products</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link py-0 pr-3" href="about.html">About</a>
+       </li>
+     </ul>
+   </div>
+ </div>
+</nav>
+
 <div class="container">
 
   <!-- Carousel -->
@@ -99,12 +99,12 @@
       <span class="carousel-control-next-icon"></span>
     </a>
 
-  </div>
+  </div><br>
 
 <!-- This weeks Featured items -->
 <div class="bottombar">
 <h1> This Week's Featured Items:</h1>
-</div>
+</div><br>
 
 
 
@@ -116,11 +116,11 @@
       <div class="card">
         <img class="card-img-top" src="https://i.pinimg.com/736x/bd/57/ab/bd57ab31f8a547e9e84179776573be29--solar-panel-kits-solar-panels.jpg" alt="">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          <h4 class="card-title">SALE!!!</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">Find Out More!</a>
+          <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
@@ -129,11 +129,11 @@
       <div class="card">
         <img class="card-img-top" src="https://ksr-ugc.imgix.net/assets/013/264/007/ce73df262963dbfa443df31da72d73cc_original.jpg?w=680&fit=max&v=1470236982&auto=format&q=92&s=dd55ac1431d63c983bef3266f81ae973" alt="">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+          <h4 class="card-title">Portable Generator</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente. beatae culpa natus architecto.</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">Find Out More!</a>
+          <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
@@ -142,11 +142,11 @@
       <div class="card">
         <img class="card-img-top" src="https://images.homedepot-static.com/productImages/8558af20-02ce-4c48-bcc4-2cfdc61aa514/svn/grape-solar-off-grid-solar-kits-gs-400-kit-64_1000.jpg" alt="">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          <h4 class="card-title">Pannel DIY Kit</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">Find Out More!</a>
+          <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
@@ -155,28 +155,101 @@
       <div class="card">
         <img class="card-img-top" src="https://i5.walmartimages.com/asr/ca996130-c012-4a22-b6ae-957251a726f7_1.039d1857c826a588f487b98a09346f8c.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF" alt="">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title">Turbine Kit</h4>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary">Find Out More!</a>
+          <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
-
   </div>
   <!-- /.row -->
 
 </div>
 <!-- /.container -->
-  <!-- Footer -->
-  <footer class="footer text-faded text-center py-5">
-    <div class="container">
-      <p class="m-0 small">Copyright &copy; SunSandSurf 2018</p>
-    </div>
-  </footer>
 
+  <!-- Footer  begins Here-->
+<footer class="page-footer font-small pt-4 mt-4">
+     <!-- Footer Links -->
+     <div class="container-fluid text-center text-md-left">
 
+       <!-- Grid row -->
+       <div class="row">
+
+         <!-- Grid column -->
+         <div class="col-md-6 mt-md-0 mt-3">
+
+           <!-- Content -->
+           <h5 class="text-uppercase">Sun, Sand, Surf</h5>
+           <p>Sun, Sand, Surf, Inc. is a subsidiary of Cool Shit, Inc. Text "SO COOL" at 555-5555 for customer service.</p>
+
+         </div>
+         <!-- Grid column -->
+
+         <hr class="clearfix w-100 d-md-none pb-3">
+
+         <!-- Grid column -->
+         <div class="col-md-3 mb-md-0 mb-3">
+
+           <!-- Links -->
+           <h5 class="text-uppercase">About Us</h5>
+
+           <ul class="list-unstyled">
+             <li>
+               <a href="#!" class="footerlink">Who We Are</a>
+             </li>
+             <li>
+               <a href="#!" class="footerlink">Our Mission</a>
+             </li>
+             <li>
+               <a href="#!" class="footerlink">Our Process</a>
+             </li>
+           </ul>
+
+         </div>
+         <!-- Grid column -->
+
+       <!-- Grid column -->
+       <div class="col-md-3 mb-md-0 mb-3">
+
+         <!-- Links -->
+         <h5 class="text-uppercase">Customer Service</h5>
+
+         <ul class="list-unstyled">
+           <li>
+             <a href="#!" class="footerlink">FAQ</a>
+           </li>
+           <li>
+             <a href="#!" class="footerlink">Your Orders</a>
+           </li>
+           <li>
+             <a href="#!" class="footerlink">Shipping Rates and Policies</a>
+           </li>
+           <li>
+             <a href="#!" class="footerlink">Help</a>
+           </li>
+           <li>
+             <a href="#" class="footerlink">Customer Rep</a>
+           </li>
+         </ul>
+
+       </div>
+       <!-- Grid column -->
+
+     </div>
+     <!-- Grid row -->
+   </div>
+<!-- Footer Links -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2018 Copyright:
+<span class="footerlink">Sun, Sand, Surf, Inc.</span>
+</div>
+<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

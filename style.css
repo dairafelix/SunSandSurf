@@ -3,7 +3,7 @@
   width: 100%;
 }
 .bottombar {
-  background: red;
+  background: #4bbcf4;
   color: yellow;
 }
 a {
@@ -18,4 +18,32 @@ h1 {
 }
 body {
   background-color: #cccccc;
+}
+#nav{
+  background-color: #4BBCF4;
+  color: white;
+}
+#searchbar{
+  width: 90%;
+}
+.btn-outline{
+  color: white;
+  background-color: rgb(255, 224, 211);
+}
+.btn-outline:hover{
+  color: white;
+  background-color: rgb(255, 212, 195);
+}
+#logostuff{
+  color: white;
+}
+#sbar{
+  width: 70%!important;
+}
+footer{
+  background-color: #3b9ac9;
+  color: white;
+}
+.footerlink{
+  color: rgb(255,212,195);
 }
