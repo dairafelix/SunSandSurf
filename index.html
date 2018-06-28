@@ -1,104 +1,188 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Our CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
-    <!-- FontAwesome CSS -->
-    <link href="fontawesome5/css/all.css" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-<!-- Navbar  -->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="#">Navbar</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
-<!-- Search Bar  -->
-   <form class="form-inline">
-  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>
-<!--Float right  -->
-<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link disabled" href="#">Disabled</a>
-     </div>
-   </div>
- </nav>
-<!-- Carousel  -->
-<div class="carouselSettings container">
-<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100 l-50" src="https://i.ytimg.com/vi/Ojh-5dIc9Us/maxresdefault.jpg" alt="First slide">
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+  <!-- FontAwesome CSS -->
+  <link href="fontawesome5/css/all.css" rel="stylesheet">
+  <!-- Font Style  -->
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Josefin+Slab" rel="stylesheet">
+
+  <title>SunSandSurf</title>
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #006d50;">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
     </div>
-    <div class="carousel-item ">
-      <img class="d-block w-100 l-50" src="https://antinuclearinfo.files.wordpress.com/2010/06/wind-turbines-small.gif" alt="Second slide">
+  </nav>
+<!-- Bar underneath -->
+<div class="bottombar">
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Sun</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Sand</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Surl</a>
+  </li>
+</ul>
+</div>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="http://www.rbisolar.com/assets/uploads/solutions/roof-mount/3.jpg" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.jebiga.com/wp-content/uploads/2016/08/Estream-A-Portable-Water-Power-Generator.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.endesa.com/content/enel-es/en/megamenu/press/archive/2017/03/smart-grids/jcr:content/article-content/album_copy/images/image_900758798_copy.img.jpg/1488447717829.jpg" alt="New York">
+      </div>
     </div>
-    <div class="carousel-item ">
-      <img class="d-block w-100 l-50" src="http://www.frenshammill.org/uploads/1/3/5/5/13551779/424019_orig.jpg" alt="Third slide">
-    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+
+<!-- This weeks Featured items -->
+<div class="bottombar">
+<h1> This Week's Featured Items:</h1>
 </div>
+
+
+
+
+  <!-- Page Features -->
+  <div class="row text-center">
+
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card">
+        <img class="card-img-top" src="https://i.pinimg.com/736x/bd/57/ab/bd57ab31f8a547e9e84179776573be29--solar-panel-kits-solar-panels.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card">
+        <img class="card-img-top" src="https://ksr-ugc.imgix.net/assets/013/264/007/ce73df262963dbfa443df31da72d73cc_original.jpg?w=680&fit=max&v=1470236982&auto=format&q=92&s=dd55ac1431d63c983bef3266f81ae973" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card">
+        <img class="card-img-top" src="https://images.homedepot-static.com/productImages/8558af20-02ce-4c48-bcc4-2cfdc61aa514/svn/grape-solar-off-grid-solar-kits-gs-400-kit-64_1000.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card">
+        <img class="card-img-top" src="https://i5.walmartimages.com/asr/ca996130-c012-4a22-b6ae-957251a726f7_1.039d1857c826a588f487b98a09346f8c.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-primary">Find Out More!</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.row -->
+
 </div>
- <!-- Random text -->
- <h1 class="h1 page-title">The good stuff</h1>
-         <p class="sub-h1">Words are our fuel</p>
-         <p class="p1">
-           In <span class="brand-txt">Smooth</span>, our main concern is <em>you</em>. Every single word is handpicked with great attention. Processing all of them can not get more effective. There is no base uncovered. <em>Enjoy.</em>
-         </p>
+<!-- /.container -->
+  <!-- Footer -->
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; SunSandSurf 2018</p>
+    </div>
+  </footer>
 
 
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="bootstrap4/js/bootstrap.min.js"></script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="bootstrap4/js/bootstrap.min.js"></script>
-  </body>
 </html>

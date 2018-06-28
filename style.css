@@ -1,4 +1,21 @@
-carouselSettings {
-  width: 100%;
+.carouselSettings {
   height: 30%;
+  width: 100%;
+}
+.bottombar {
+  background: red;
+  color: yellow;
+}
+a {
+  font-family: 'Josefin Slab', serif;
+
+}
+p {
+  font-family: 'Josefin Slab', serif;
+}
+h1 {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+body {
+  background-color: #cccccc;
 }
