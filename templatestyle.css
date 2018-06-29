@@ -11,11 +11,11 @@ carouselSettings {
 }
 .btn-outline{
   color: white;
-  background-color: rgb(255, 224, 211);
+  background-color: #f66473;
 }
 .btn-outline:hover{
   color: white;
-  background-color: rgb(255, 212, 195);
+  background-color: #DC5A67;
 }
 #logostuff{
   color: white;
@@ -24,9 +24,12 @@ carouselSettings {
   width: 70%!important;
 }
 footer{
-  background-color: #3b9ac9;
+  background-color: #4BBCF4;
   color: white;
 }
 .footerlink{
-  color: rgb(255,212,195);
+  color: #f66473;
+}
+.footerlink:hover{
+  color: #DC5A67;
 }

@@ -1,0 +1,70 @@
+.fa-star {
+    color: yellow !important;
+
+}
+.fa-greater-than {
+    color: #61c0bf;
+
+}
+.card-text {
+    font-size: 1.5em;
+}
+
+
+.sub-card-text {
+    font-size: .75em;
+    color: #4BBCF4;
+}
+
+.price_currency {
+    font-size: 1.5em;
+}
+.price_dollars{
+    font-size: 3em;
+}
+.price_cents {
+    font-size: 1.5em;
+}
+.qty_item {
+    font-size: 1.5em;
+
+}
+.addprot {
+    font-size: 1.25em;
+    color: #4BBCF4;
+}
+
+.delfree {
+    color: #61c0bf;
+}
+
+.deldate {
+    font-size: .8em;
+}
+
+.card-header {
+    font-size: 1.5em;
+}
+
+.descprod {
+    font-size: .8em;
+}
+
+.jumbotron {
+    background-image:  url("https://s3.amazonaws.com/dsg.files.app.content.prod/gereports/wp-content/uploads/2017/09/12121430/wind-onshore-48-158-3d-landscape-1-3000px.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotext {
+    text-align: center;
+    font-size: 4em !important;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jumbotext:hover {
+    color: #F66473;
+}
