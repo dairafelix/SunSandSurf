@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="cartstyle.css">
+    <!-- Navbar and Footer CSS -->
+    <link rel="stylesheet" href="templatestyle.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <!-- FontAwesome CSS -->
+    <link href="fontawesome5/css/all.css" rel="stylesheet">
+
+    <title>Shopping Cart - Sun, Sand, Surf</title>
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-md navbar-dark py-0" id="nav">
+        <div class="container-fluid mx-0 px-0">
+            <!-- Logo -->
+            <a href="#" id="logostuff">
+                <img src="ssslogo.png" height="115" width="115">
+            </a>
+            <button class="navbar-toggler my-2" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar except for the logo -->
+            <div class="collapse navbar-collapse flex-column align-items-start ml-lg-2 ml-0" id="navbarCollapse">
+                <!-- Row 1: Searchbar, Search Button, Cart -->
+                <div class="input-group mb-3 flex-row w-100">
+                    <!-- Searchbar -->
+                    <div class="w-75" id="sbar">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                    </div>
+                    <!-- Appended Search Button -->
+                    <div class="input-group-append">
+                        <button class="btn btn-outline" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                    <!-- Cart Button -->
+                    <div class="ml-auto">
+                        <button class="btn btn-outline ml-auto" type="button">
+                            <i class="fas fa-shopping-cart fa-sm"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Row 2 REMEMBER TO EDIT THE HREF LINKS -->
+                <ul class="navbar-nav flex-row mb-md-1 mt-md-0 mb-3 mt-2">
+                    <li class="nav-item">
+                        <a class="nav-link py-0 pr-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0 pr-3" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0 pr-3" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Content  -->
+
+    <main>
+        <div class="container-fluid .d-flex">
+            <div class="row pt-3">
+                <!-- Column 1 -->
+                <div class="col-xs-12 col-xl-10 mx-0 container-fluid">
+                    <!-- Top Row: -->
+                    <div class="row">
+                        <div class="col-8">
+                            <h2>
+                                <span class="align-bottom">Shopping Cart</span>
+                            </h2>
+                        </div>
+                        <div class="col-2 text-center">
+                            <span class="mb-0">Price</span>
+                        </div>
+                        <div class="col-2 text-center align-bottom">
+                            Amt
+                        </div>
+                    </div>
+                    <hr class="m-0" id="shophr">
+                    <!-- /Top Row -->
+                    <!-- First Item  -->
+                    <div class="row pt-3">
+                        <div class="col-8 d-flex flex-row cartitem">
+                            <div class="pl-3">
+                                <img class="imgshop flex-column" src="https://images.homedepot-static.com/productImages/86fde4dd-6227-4618-93a5-84c99a006dd6/svn/nature-power-wind-turbines-70701-64_1000.jpg">
+
+                                <span class="flex-column">2000-Watt Wind Turbine Power Generator</span>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex flex-row align-items-center justify-content-center text-center">
+                            <div></div>
+                            <span>$2077.74</span>
+                        </div>
+                        <div class="col-2 d-flex flex-row align-items-center justify-content-center">
+                            <input class="form-control" type="text" value="1">
+                        </div>
+                    </div>
+                    <hr class="m-0 mt-3 shophr1">
+                    <!-- Second Item  -->
+                    <div class="row pt-3">
+                        <div class="col-8 d-flex flex-column cartitem">
+                            <div class="pl-3 flex-column">
+                                <img class="imgshop" src="https://mobileimages.lowes.com/product/converted/855172/855172003713.jpg">
+
+                                <span>500 Watt SolarX Sun Power 35+ Deluxe Solar Panels </span>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex flex-row align-items-center justify-content-center text-center">
+                            <div></div>
+                            <span>$491.23</span>
+                        </div>
+                        <div class="col-2 d-flex flex-row align-items-center justify-content-center">
+                            <input class="form-control" type="text" value="1">
+                        </div>
+                    </div>
+                    <hr class="m-0 mt-3 shophr1">
+                    <!-- /Second Item -->
+                    <div class="row mt-4 pr-2">
+                        <div class="col-8"></div>
+                        <div class="col-2 d-flex flex-row align-items-center justify-content-center">
+                            <span>$2568.97</span>
+                        </div>
+                        <div class="col-2 d-flex flex-row align-items-center justify-content-center">
+                            <button class="btn btn-primary checkoutbtn ml-auto" type="submit">
+                                Checkout
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column 2 -->
+                <div class="d-none d-xl-block col-xl-2">
+                    <div class="row d-flex flex-row align-items-center justify-content-center qkchouttop w-75 mx-auto mt-5">
+                        Quick Checkout
+                    </div>
+                    <div class="row d-flex flex-row align-items-center justify-content-center qkchoutmid w-75 mx-auto">
+                        Total: $2,568.97
+                    </div>
+                    <div class="row d-flex flex-row align-items-center justify-content-center qkchoutbot w-75 mx-auto">
+                        <button class="btn checkoutbtn m-0 w-100" id="qkchoutbtn" type="submit">
+                            Checkout Now    
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4 mt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Sun, Sand, Surf</h5>
+                    <p>Sun, Sand, Surf, Inc. is a subsidiary of Cool Shit, Inc. Text "SO COOL" at 555-5555 for customer service.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">About Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="footerlink">Who We Are</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footerlink">Our Mission</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footerlink">Our Process</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Customer Service</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="footerlink">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footerlink">Your Orders</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footerlink">Shipping Rates and Policies</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="footerlink">Help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footerlink">Customer Rep</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <span class="footerlink">Sun, Sand, Surf, Inc.</span>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+</body>
+
+</html>

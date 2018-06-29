@@ -1,0 +1,40 @@
+#shophr{
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: #4BBCF4;
+}
+.imgshop{
+    width: 15%!important;
+}
+.cartitem{
+    border: 1px black; 
+}
+.shophr1{
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: #f66473;
+}
+.checkoutbtn{
+    border: black;
+}
+.qkchouttop{
+    background-color: #4BBCF4;
+    border: 1px;
+    border-radius: 3px;
+    color: white;
+    border-color: black;
+}
+.qkchoutmid{
+    background-color: white;
+    color: #4bbcf4;
+}
+#qkchoutbtn{
+    border-radius: 0px;
+    background-color: #f66473;
+    color: white;
+}
+#qkchoutbtn:hover{
+    background-color: #DC5A67;
+}
