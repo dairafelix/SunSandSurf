@@ -28,7 +28,7 @@ body {
 }
 .btn-outline{
   color: white;
-  background-color: rgb(255, 224, 211);
+  background-color: #f66473;
 }
 .btn-outline:hover{
   color: white;
@@ -45,5 +45,5 @@ footer{
   color: white;
 }
 .footerlink{
-  color: rgb(255,212,195);
+  color: #f66473;
 }
